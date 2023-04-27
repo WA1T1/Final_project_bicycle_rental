@@ -1,0 +1,54 @@
+.header {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.image {
+    width: 100%;
+}
+
+.leftSide {
+    width: 40%;
+}
+
+.rightSide {
+    width: 50%;
+}
+
+.row {
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cell {
+    width: 50%;
+    height: 100%;
+}
+
+.cell p {
+    word-break:break-all;
+    white-space: normal;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+}
+
+.checkboxContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.checkbox {
+    width: 30px;
+    height: 30px;
+}

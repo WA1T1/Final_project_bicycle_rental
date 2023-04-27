@@ -1,0 +1,17 @@
+.loaderContainer {
+    position: absolute;
+    opacity: 0.95;
+    background-color: #757575;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999999999;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+

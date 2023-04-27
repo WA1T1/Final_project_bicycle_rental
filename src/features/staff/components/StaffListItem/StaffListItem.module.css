@@ -1,0 +1,48 @@
+.container {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px black solid;
+    border-radius: 5px;
+    min-height: 150px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0 0;
+    grid-template-areas:
+    "image name name buttons"
+    "image info info buttons";
+}
+
+.image {
+    grid-area: image;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.name { grid-area: name; }
+.info { grid-area: info; }
+.buttons {
+    grid-area: buttons;
+    display: flex;
+    align-items: center;
+}
+
+
+.circleImage {
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text {
+    text-align: center;
+}
+
+.button {
+    margin: 15px auto;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+}

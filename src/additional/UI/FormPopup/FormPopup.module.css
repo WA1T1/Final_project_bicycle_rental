@@ -1,0 +1,35 @@
+.popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top: 0;
+}
+
+.popup_content{
+    margin:40px auto 0 auto;
+    width:50vw;
+    height: 80vh;
+    /*background: linear-gradient(141deg, rgba(2,0,36,1) 0%, rgba(40,40,221,1) 0%, rgba(7,183,249,1) 100%, rgba(0,212,255,1) 100%);*/
+    background: #FFF;
+    border-radius:5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #000;
+    position: relative;
+}
+
+.headerText {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    bottom: 15px;
+    left: 10%;
+}
+
+.container {
+    overflow: auto;
+    max-height: 80%;
+}
